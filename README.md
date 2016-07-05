@@ -9,4 +9,19 @@ Django+Bootstrap搭建的简易个人博客
 6.后台引入TinyMce富文本编辑器,前端使用SyntaxHighlighter进行代码高亮
 7.引入站长统计以及访问统计
 
+安装步骤
+1、pip install -r requirements.txt
+2、pip install django-tinymce
+
+运行
+python manage.py runserver 0.0.0.0:8000
+
+创建超级用户（管理用户）
+python manage.py createsuperuser
+按提示输入信息，完成管理员用户创建
+
+后台管理入口
+.../admin
+比如：http:127.0.0.1:8000/admin
+
 
